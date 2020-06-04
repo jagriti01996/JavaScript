@@ -3,10 +3,14 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { BindingComponent } from './binding/binding.component';
+import { CovidTrakerLoginComponent } from './covid-traker-login/covid-traker-login.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    BindingComponent,
+    CovidTrakerLoginComponent
   ],
   imports: [
     BrowserModule,
